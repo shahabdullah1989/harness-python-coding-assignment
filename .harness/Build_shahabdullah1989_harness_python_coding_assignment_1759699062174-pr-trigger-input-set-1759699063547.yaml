@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_shahabdullah1989_harness_python_coding_assignment_1759699062174-pr-trigger-input-set
+  identifier: Build_shahabdullah1989_harness_python_coding_assignment_1759699062174prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: python_Coding_Assessment
+  pipeline:
+    identifier: Build_shahabdullah1989_harness_python_coding_assignment_1759699062174
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
